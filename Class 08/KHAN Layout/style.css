@@ -1,0 +1,23 @@
+header {
+  float: left;
+  width: 100%;
+  color: blue;
+}
+header nav ul * {
+   float: left;
+   width: 16%;
+   list-style: none;
+}
+main section {
+  float: left;
+  width: 50%; 
+  margin-top: 5%;
+}
+button{
+  color: white;
+  background-color: blue;
+  border: none;
+}
+nav ul form input {
+  width: 60%;
+}

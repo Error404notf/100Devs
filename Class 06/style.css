@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+ 
+}
+header, footer {
+  border: 1px solid gray;
+  height: 100px;
+}
+section {
+  border: 1px solid black;
+  width: 33.33%;
+  float: left;
+  height: 300px;
+}
+footer { 
+  clear: both;
+}
+@media screen and (min-width:800px) {
+  header, footer {
+    background: blue;
+  }
+}
+@media all and (max-width:300px) {
+  body {
+    background: yellow;
+  }
+}
+@media only screen and (width: 450px) {
+  header:hover {
+    border: 3px solid purple;
+  }
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="0-styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <section class="main-section">
+    <header>
+      <nav>
+        <div class="nav-container">
+          <img src="images/logo_headphones.png" alt="logo" class="logo">
+    
+          <!-- Hamburger Icon -->
+          <div class="hamburger" id="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+    
+          <!-- Navigation Links -->
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#">What we do</a></li>
+            <li><a href="#">Our results</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <main>
+      <h2>Lorem ipsum dolor sit amet lorem ipsum</h2>
+      <p>Lorem ipsum dolor sit amet lorem ipsum dolor set</p>
+      <button>CALL TO ACTION</button>
+      <p class="main-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque modi unde eveniet veritatis temporibus at id. Consequatur ad eaque officia reprehenderit, blanditiis unde est, laudantium natus a debitis omnis corporis.</p>
+    </main >
+  </section>
+  <section>
+    <div class="main-p">
+    <h3>What we do...</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eius quia nesciunt quos dolorem rerum maxime rem molestiae. Deleniti consequatur commodi ea fuga iure maxime ad dolore molestias laboriosam fugiat!</p>
+    </div>
+    <section class="second-section">
+    <img src="lorem 1.jpg" alt="music-logo">
+    <p>Lorem ipsum</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing eli!</p>
+    </section>
+    <section class="second-section">
+    <img src="lorem 2.jpg" alt="recorder-logo">
+    <p>Lorem ipsum</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing eli!</p>
+    </section>
+    <section class="second-section">
+    <img src="lorem 3.jpg" alt="music-logo">
+    <p>Lorem ipsum</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing eli!</p>
+    </section>
+    <section class="second-section">
+    <img src="lorem 4.jpg" alt="earpiece-logo">
+    <p>Lorem ipsum</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing eli!</p>
+    </section>
+  </section>
+  <section class="third-section">
+    <div class="main-p">
+      <h4>Our results speak for themselves</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias architecto eos quibusdam debitis, mollitia maxime asperiores voluptatum doloribus nesciunt, adipisci quam atque nihil ratione illum, rerum quaerat facere quod nam!</p>
+    </div>
+    <section class="rating-section">
+      <h3>+ 2%</h3>
+      <p>Lorem ipsum dolor</p>
+    </section>
+    <section class="rating-section">
+      <h3>+ 2%</h3>
+      <p>Lorem ipsum dolor</p>
+    </section>
+    <section class="rating-section">
+      <h3>+ 2%</h3>
+      <p>Lorem ipsum dolor</p>
+    </section>
+    <section class="rating-section">
+      <h3>+ 2%</h3>
+      <p>Lorem ipsum dolor</p>
+    </section>
+  </section>
+  <section class="main-p">
+    <h4>Contact us</h4>
+    <form >
+      <label class="form"for="name">Name</label>
+      <input  id ="name"type="text" required>
+      
+      <label class="form" for="email-address">Email</label>
+      <input  id="email-address" type="email" required>
+    
+    <label class="form" for="message">Message</label>
+      <input  type="text" id="message">
+    
+    <button class="form-button">CALL TO ACTION</button>
+    </form>
+  </section>
+  <footer>
+    <div class="footer">
+      <img src="images/logo_headphones.png" alt="logo">
+      <div class="footer1">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+    <p class="smile">©smileschool 2020</p>
+  </footer>
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+  
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('show');
+    });
+  </script>
+  
+</body>
+</html>

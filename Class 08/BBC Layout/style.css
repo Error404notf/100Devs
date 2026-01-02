@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+header * {
+  float: left;
+  width: 100%;
+  margin: 0;
+  background-color: black;
+  color: aliceblue;
+}
+header nav > ul li {
+  list-style-type: none;
+  margin-bottom: 0;
+  width: 10%;
+  display: block;
+}
+header > img {
+  width: 2%;
+  margin-top: 5px;
+}
+form {
+  display: inline-block;
+  width: 15%;
+}
+section{
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+header + section + section section {
+  width: 50%;
+  height: 250px;
+  float: left;
+}
+
+footer section {
+  float: left;
+  width: 33.333%;
+}

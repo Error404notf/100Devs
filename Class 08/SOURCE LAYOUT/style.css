@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  float: left;
+  width: 100%;
+}
+header h2, nav ul li{
+  float: left;
+  width: 12%;
+  list-style-type: none;
+}
+li{
+  margin-left: 100px;
+  margin-top: 10px;
+}
+button{
+  margin-left: 60px;
+  border: none;
+  background: rgb(100, 97, 97);
+  width: 80px;
+  color: white;
+  height: 30px;
+}
+a {
+  text-decoration: none;
+}
+main section  {
+  float: left;
+  width: 50%;
+}
+img {
+  margin-top: 0;
+}
+main > section {
+  margin-top: 40px;
+}
+main + section section  {
+  float: left;
+  width: 25%;
+}
+footer {
+  margin-top: 30px;
+  width: 600px;
+  line-height: 30px;
+  clear: both;
+}
+@media screen  and (max-width: 600px) {
+  header nav {
+    display: none;
+  }
+  header h2 {
+    text-align: center;
+    width: 100%
+  }
+  section {
+    display: block;
+    width: 100%;
+    clear: both;
+  }
+  main + section section {
+    width: 100%;
+  }
+  input, button {
+    float: left;
+    width: 50%;
+
+  }
+  button + p {
+    clear: both;
+  }
+  button {
+    margin-left: 0px;
+  }
+  
+}
